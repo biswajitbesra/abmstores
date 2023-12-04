@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: #e3eaed;
+}
+body::-webkit-scrollbar{
+    display: none;
+}
+/* NAVBAR START */
+.navbar{
+    padding: 1.3rem 0;
+    background-color: white;
+}
+.navbar .container .nav-text span{
+    padding: 0 .35rem;
+    border-radius: .4rem;
+    color: white;
+    background-color: red;
+    font-size: 1.2rem;
+}
+.navbar .nav-text{
+    font-size: 1.25rem;
+}
+.navbar .nav-text:hover{
+    color: red;
+}
+.navbar .nav-item .nav-about{
+    color: red;
+}
+.navbar .icon{
+    font-size: 1.5rem;
+    margin-right: .5rem;
+}
+.navbar .icon a{
+    color: #000;
+}
+.navbar .icon a:hover{
+    color: red;
+}
+/* NAVBAR END */
+
+/* ABOUT START */
+.about .heading{
+    text-align: center;
+    padding: 3rem;
+}
+.story-container, .mission-container{
+    padding: 2rem 0;
+}
+.about h2{
+    padding-bottom: .1rem;
+}
+.about p{
+    font-size: .9rem;
+    line-height: 1.3;
+    color: #000000;
+}
+.about .wrapper{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+.about .wrapper .text{
+    width: 40%;
+}
+.about .wrapper .image{
+    width: 20rem;
+}
+.about .wrapper .image img{
+    width: 100%;
+}
+/* ABOUT END */
+
+
+/* FOOTER START */
+.footer{
+    padding: 2rem 2rem .5rem 2rem;
+    background-color: black;
+}
+.footer .info{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.footer h4{
+    margin-bottom: .8rem;
+    color: #ffffff; 
+}
+.footer ul li{
+    margin-bottom: .2rem;
+    list-style: none;
+}
+.footer .sec a,p{
+    color: #ffffff; 
+    text-decoration: none;
+}
+.sec ul li,h4{
+    text-align: center;
+}
+.footer .sec, .location{
+    width: 12rem;
+}
+.footer .copy-right p{
+    margin: 0;
+    text-align: center;
+    color: #ffffff; 
+}
+.footer .info .social a{
+    color: #ffffff;
+    margin-right: .7rem;
+}
+.footer hr{
+    color: #ffffff;
+}
+/* FOOTER END */
+@media (max-width: 768px){
+    .nav-icon{
+        display: flex;
+        flex-direction: row;
+    }
+}
