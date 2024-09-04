@@ -168,6 +168,12 @@ body::-webkit-scrollbar{
     text-align: center;
     color: #ffffff; 
 }
+.footer .info .social {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 1rem;
+}
 .footer .info .social a{
     color: #ffffff;
     margin-right: .7rem;
@@ -176,6 +182,7 @@ body::-webkit-scrollbar{
     color: #ffffff;
 }
 /* FOOTER SECTION END */
+
 @media screen and (max-width:1024px) {
     .navbar{
         position: static;
@@ -187,10 +194,30 @@ body::-webkit-scrollbar{
     .products .product-container{
         padding:0 .9rem 2rem .9rem;
     }
+    
+    .footer .sec, .footer .location {
+        width: 100%;
+        text-align: center;
+    }
+
+    .footer .info {
+        flex-direction: column;
+    }
 }
 @media (max-width: 768px){
     .nav-icon{
         display: flex;
         flex-direction: row;
+    }
+}
+@media screen and (max-width: 480px) {
+    .footer .sec, .footer .location {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+
+    .footer .info {
+        flex-direction: column;
     }
 }
