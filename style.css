@@ -221,6 +221,12 @@ body::-webkit-scrollbar{
     text-align: center;
     color: #ffffff; 
 }
+.footer .info .social {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 1rem;
+}
 .footer .info .social a{
     color: #ffffff;
     margin-right: .7rem;
@@ -231,17 +237,115 @@ body::-webkit-scrollbar{
 /* FOOTER END */
 
 
-@media screen and (max-width:1024px) {
-    .products .product-container .row .product-wrap .product-image .image{
-        height: 13rem;
+@media screen and (max-width: 1024px) {
+    .navbar {
+        padding: 1rem 0;
     }
-    .products .product-container{
-        padding:0 .9rem 2rem .9rem;
+
+    .carousel .carousel-inner .carousel-image .carousel-text {
+        width: 22rem;
+        top: 18rem;
+    }
+
+    .products .product-container {
+        padding: 0 1rem;
+    }
+    
+    .products .product-container .row .product-wrap .product-image .image {
+        height: 15rem;
+    }
+
+    .footer .sec, .footer .location {
+        width: 100%;
+        text-align: center;
+    }
+
+    .footer .info {
+        flex-direction: column;
     }
 }
-@media (max-width: 768px){
-    .nav-icon{
-        display: flex;
-        flex-direction: row;
+
+@media screen and (max-width: 768px) {
+    .navbar .nav-text {
+        font-size: 1rem;
+    }
+    
+    .navbar .icon {
+        font-size: 1.2rem;
+        margin-right: 0.3rem;
+    }
+
+    .carousel .carousel-inner .carousel-image .carousel-text {
+        width: 18rem;
+        top: 15rem;
+    }
+
+    .carousel .carousel-inner .carousel-image .carousel-text h1 {
+        font-size: 1.5rem;
+    }
+
+    .carousel .carousel-inner .carousel-image .carousel-text p {
+        font-size: 1rem;
+    }
+
+    .products .product-container {
+        padding: 0 0.5rem;
+    }
+
+    .row .product-wrap .product-image .image {
+        height: 13rem;
+    }
+    
+    .products .product-container .row .product-wrap .product-details .p-text {
+        font-size: 0.9rem;
+    }
+
+    .products .product-container .row .product-wrap .product-details .price {
+        font-size: 0.9rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .navbar .nav-text {
+        font-size: 0.9rem;
+    }
+    
+    .navbar .icon {
+        font-size: 1rem;
+    }
+
+    .carousel .carousel-inner .carousel-image .carousel-text {
+        width: 16rem;
+        top: 12rem;
+    }
+
+    .carousel .carousel-inner .carousel-image .carousel-text h1 {
+        font-size: 1.2rem;
+    }
+
+    .carousel .carousel-inner .carousel-image .carousel-text p {
+        font-size: 0.9rem;
+    }
+
+    .products .product-container {
+        padding: 0 0.3rem;
+    }
+
+    .row .product-wrap .product-image .image {
+        height: 11rem;
+    }
+
+    .products .product-container .view-all a {
+        font-size: 1rem;
+    }
+
+    .footer .sec, .footer .location {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+
+    .footer .info {
+        flex-direction: column;
     }
 }
