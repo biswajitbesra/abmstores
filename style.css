@@ -237,11 +237,19 @@ body::-webkit-scrollbar{
 /* MEDIA QUERIES */
 @media screen and (max-width: 1289px) {
     .carousel .carousel-inner .carousel-image .carousel-text{
-        width: 25rem;
+        width: 20rem;
     }
     .carousel .carousel-inner .carousel-image .carousel-women{
         top: 15rem;
         left: 12rem;
+    }
+    .carousel .carousel-inner .carousel-image .carousel-men{
+        top: 15rem;
+        right: 10rem;
+    }
+    .carousel .carousel-inner .carousel-image .carousel-new{
+        top: 17rem;
+        right: 6rem;
     }
     .row .product-wrap .product-image .view, .wishlist{
         font-size: .9em;
@@ -254,10 +262,18 @@ body::-webkit-scrollbar{
 
 @media screen and (max-width: 1206px) {
     .carousel .carousel-inner .carousel-image .carousel-text{
-        width: 25rem;
+        width: 20rem;
     }
     .carousel .carousel-inner .carousel-image .carousel-women{
         top: 14rem;
+    }
+    .carousel .carousel-inner .carousel-image .carousel-men{
+        top: 15rem;
+        right: 10rem;
+    }
+    .carousel .carousel-inner .carousel-image .carousel-new{
+        top: 16rem;
+        right: 5rem;
     }
     .row .product-wrap .product-image .view, .wishlist{
         font-size: .86em;
@@ -275,6 +291,14 @@ body::-webkit-scrollbar{
     }
     .products .product-container .row .product-wrap .product-image .image {
         height: 16.5rem;
+    }
+    .carousel .carousel-inner .carousel-image .carousel-men{
+        top: 15rem;
+        right: 8rem;
+    }
+    .carousel .carousel-inner .carousel-image .carousel-new{
+        top: 16rem;
+        right: 4rem;
     }
 }
 
@@ -296,15 +320,27 @@ body::-webkit-scrollbar{
     .products .product-container .row .product-wrap .product-image .image {
         height: 16rem;
     }
+    .carousel .carousel-inner .carousel-image .carousel-new{
+        top: 16rem;
+        right: 4rem;
+    }
 }
 
 @media screen and (max-width: 1074px) {
     .carousel .carousel-inner .carousel-image .carousel-text{
-        width: 25rem;
+        width: 20rem;
     }
     .carousel .carousel-inner .carousel-image .carousel-women{
         top: 14rem;
         left: 11rem;
+    }
+    .carousel .carousel-inner .carousel-image .carousel-men{
+        top: 15rem;
+        right: 7rem;
+    }
+    .carousel .carousel-inner .carousel-image .carousel-new{
+        top: 13.5rem;
+        right: 3rem;
     }
     .row .product-wrap .product-image .view, .wishlist{
         font-size: .7em;
@@ -325,6 +361,14 @@ body::-webkit-scrollbar{
     .carousel .carousel-inner .carousel-image .carousel-women{
         top: 13rem;
         left: 10rem;
+    }
+    .carousel .carousel-inner .carousel-image .carousel-men{
+        top: 15rem;
+        right: 5rem;
+    }
+    .carousel .carousel-inner .carousel-image .carousel-new{
+        top: 11.5rem;
+        right: 3rem;
     }
     .products .product-container {
         padding: 0 1rem;
@@ -355,6 +399,14 @@ body::-webkit-scrollbar{
         top: 12rem;
         left: 9rem;
     }
+    .carousel .carousel-inner .carousel-image .carousel-men{
+        top: 12rem;
+        right: 2rem;
+    }
+    .carousel .carousel-inner .carousel-image .carousel-new{
+        top: 11rem;
+        right: -2rem;
+    }
     .carousel .carousel-inner .carousel-image .carousel-text h1 {
         font-size: 1.8rem;
     }
@@ -374,6 +426,10 @@ body::-webkit-scrollbar{
         height: 100%;
         object-fit:cover;
     }
+    .carousel .carousel-inner .carousel-image .carousel-new{
+        top: 11rem;
+        right: -2rem;
+    }
 }
 
 @media screen and (min-width: 743px) and (max-width: 768px) {
@@ -390,6 +446,10 @@ body::-webkit-scrollbar{
     .carousel .carousel-inner .carousel-image .carousel-women{
         top: 12rem;
         left: 8.5rem;
+    }
+    .carousel .carousel-inner .carousel-image .carousel-new{
+        top: 11rem;
+        right: -3rem;
     }
     .carousel .carousel-inner .carousel-image .carousel-text h1 {
         font-size: 1.8rem;
@@ -502,6 +562,10 @@ body::-webkit-scrollbar{
         top: 12rem;
         left: 5.8rem;
     }
+    .carousel .carousel-inner .carousel-image .carousel-men{
+        top: 12rem;
+        right: 2rem;
+    }
     .products .product-container .deal-heading{
         padding: 1.67rem 0;
     }
@@ -570,6 +634,10 @@ body::-webkit-scrollbar{
         top: 10rem;
         left: 5.4rem;
     }
+    .carousel .carousel-inner .carousel-image .carousel-men{
+        top: 12rem;
+        right: 0rem;
+    }
     .carousel .carousel-inner .carousel-image .carousel-text .shop-now{
         font-size: 1rem;
     }
@@ -604,6 +672,10 @@ body::-webkit-scrollbar{
         top: 10rem;
         left: 5.2rem;
     }
+    .carousel .carousel-inner .carousel-image .carousel-men{
+        top: 12rem;
+        right: 0rem;
+    }
     .carousel .carousel-inner .carousel-image .carousel-text .shop-now{
         font-size: 1rem;
     }
@@ -637,6 +709,10 @@ body::-webkit-scrollbar{
     .carousel .carousel-inner .carousel-image .carousel-women{
         top: 10rem;
         left: 5rem;
+    }
+    .carousel .carousel-inner .carousel-image .carousel-men{
+        top: 12rem;
+        right: 0rem;
     }
     .carousel .carousel-inner .carousel-image .carousel-text .shop-now{
         font-size: 1rem;
@@ -674,6 +750,10 @@ body::-webkit-scrollbar{
     .carousel .carousel-inner .carousel-image .carousel-women{
         top: 10rem;
         left: 4.8rem;
+    }
+    .carousel .carousel-inner .carousel-image .carousel-men{
+        top: 12rem;
+        right: 0rem;
     }
     .carousel .carousel-inner .carousel-image .carousel-text .shop-now{
         font-size: 1rem;
@@ -729,6 +809,10 @@ body::-webkit-scrollbar{
         top: 10rem;
         left: 4.3rem;
     }
+    .carousel .carousel-inner .carousel-image .carousel-men{
+        top: 12rem;
+        right: 0rem;
+    }
     .carousel .carousel-inner .carousel-image .carousel-text .shop-now{
         font-size: 1rem;
     }
@@ -766,6 +850,10 @@ body::-webkit-scrollbar{
         top: 10rem;
         left: 4.1rem;
     }
+    .carousel .carousel-inner .carousel-image .carousel-men{
+        top: 12rem;
+        right: 0rem;
+    }
     .carousel .carousel-inner .carousel-image .carousel-text .shop-now{
         font-size: 1rem;
     }
@@ -802,6 +890,10 @@ body::-webkit-scrollbar{
     .carousel .carousel-inner .carousel-image .carousel-women{
         top: 10rem;
         left: 3.5rem;
+    }
+    .carousel .carousel-inner .carousel-image .carousel-men{
+        top: 12rem;
+        right: 0rem;
     }
     .carousel .carousel-inner .carousel-image .carousel-text .shop-now{
         font-size: 1rem;
