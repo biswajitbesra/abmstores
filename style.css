@@ -88,7 +88,7 @@ body::-webkit-scrollbar{
 .products .product-container{
     width: 95%;
     background-color: #ffffff;
-    padding:0 2rem 0 2rem;
+    padding:0 3rem 0 3rem;
     border-radius: 1.5rem;
 }
 .products .product-container .deal-heading{
@@ -103,7 +103,6 @@ body::-webkit-scrollbar{
     justify-content: center;
     position: relative;
 }
-
 .row .product-wrap .product-image .image{
     height: 19.5rem;
     width: 100%;
@@ -187,7 +186,6 @@ body::-webkit-scrollbar{
 }
 /* PRODUCT SECTION START */
 
-
 /* FOOTER START */
 .footer{
     padding: 2rem 2rem .5rem 2rem;
@@ -236,107 +234,477 @@ body::-webkit-scrollbar{
 }
 /* FOOTER END */
 
+/* MEDIA QUERIES */
+@media screen and (max-width: 1289px) {
+    .carousel .carousel-inner .carousel-image .carousel-text{
+        width: 25rem;
+    }
+    .carousel .carousel-inner .carousel-image .carousel-women{
+        top: 15rem;
+        left: 12rem;
+    }
+    .row .product-wrap .product-image .view, .wishlist{
+        font-size: .9em;
+        padding: 6px 15px;
+    }
+    .products .product-container .row .product-wrap .product-image .image {
+        height: 17rem;
+    }
+}
+
+@media screen and (max-width: 1206px) {
+    .carousel .carousel-inner .carousel-image .carousel-text{
+        width: 25rem;
+    }
+    .carousel .carousel-inner .carousel-image .carousel-women{
+        top: 14rem;
+    }
+    .row .product-wrap .product-image .view, .wishlist{
+        font-size: .86em;
+        padding: 6px 15px;
+    }
+    .products .product-container .row .product-wrap .product-image .image {
+        height: 16.5rem;
+    }
+}
+
+@media screen and (max-width: 1173px) {
+    .row .product-wrap .product-image .view, .wishlist{
+        font-size: .82em;
+        padding: 5px 14px;
+    }
+    .products .product-container .row .product-wrap .product-image .image {
+        height: 16.5rem;
+    }
+}
+
+@media screen and (max-width: 1141px) {
+    .row .product-wrap .product-image .view, .wishlist{
+        font-size: .78em;
+        padding: 5px 13px;
+    }
+    .products .product-container .row .product-wrap .product-image .image {
+        height: 16.5rem;
+    }
+}
+
+@media screen and (max-width: 1107px) {
+    .row .product-wrap .product-image .view, .wishlist{
+        font-size: .76em;
+        padding: 4px 13px;
+    }
+    .products .product-container .row .product-wrap .product-image .image {
+        height: 16rem;
+    }
+}
+
+@media screen and (max-width: 1074px) {
+    .carousel .carousel-inner .carousel-image .carousel-text{
+        width: 25rem;
+    }
+    .carousel .carousel-inner .carousel-image .carousel-women{
+        top: 14rem;
+        left: 11rem;
+    }
+    .row .product-wrap .product-image .view, .wishlist{
+        font-size: .7em;
+        padding: 4px 13px;
+    }
+    .products .product-container .row .product-wrap .product-image .image {
+        height: 16rem;
+    }
+}
 
 @media screen and (max-width: 1024px) {
     .navbar {
         padding: 1rem 0;
     }
-
-    .carousel .carousel-inner .carousel-image .carousel-text {
-        width: 22rem;
-        top: 18rem;
+    .carousel .carousel-inner .carousel-image .carousel-text{
+        width: 18rem;
     }
-
+    .carousel .carousel-inner .carousel-image .carousel-women{
+        top: 13rem;
+        left: 10rem;
+    }
     .products .product-container {
         padding: 0 1rem;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
     }
-    
     .products .product-container .row .product-wrap .product-image .image {
         height: 15rem;
     }
-
     .footer .sec, .footer .location {
         width: 100%;
         text-align: center;
     }
-
     .footer .info {
         flex-direction: column;
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 880px) {
+    .carousel .carousel-inner .carousel-image .carousel-text{
+        width: 18rem;
+    }
+    .carousel .carousel-inner .carousel-image .carousel-text p{
+        display: none;
+    }
+    .carousel .carousel-inner .carousel-image .carousel-women{
+        top: 12rem;
+        left: 9rem;
+    }
+    .carousel .carousel-inner .carousel-image .carousel-text h1 {
+        font-size: 1.8rem;
+    }
+    .carousel .carousel-inner .carousel-image .carousel-text .shop-now{
+        font-size: 1.2rem;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    #carouselExampleAutoplaying{
+        height: 25rem;
+    }
+    .carousel .carousel-inner .carousel-image{
+        height: 25rem;
+    }
+    .carousel .carousel-inner .carousel-image img{
+        height: 100%;
+        object-fit:cover;
+    }
+}
+
+@media screen and (min-width: 743px) and (max-width: 768px) {
     .navbar .nav-text {
         font-size: 1rem;
     }
-    
     .navbar .icon {
         font-size: 1.2rem;
         margin-right: 0.3rem;
     }
-
-    .carousel .carousel-inner .carousel-image .carousel-text {
+    .carousel .carousel-inner .carousel-image .carousel-text{
         width: 18rem;
-        top: 15rem;
     }
-
+    .carousel .carousel-inner .carousel-image .carousel-women{
+        top: 12rem;
+        left: 8.5rem;
+    }
     .carousel .carousel-inner .carousel-image .carousel-text h1 {
-        font-size: 1.5rem;
+        font-size: 1.8rem;
     }
-
-    .carousel .carousel-inner .carousel-image .carousel-text p {
-        font-size: 1rem;
-    }
-
     .products .product-container {
         padding: 0 0.5rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
-
+    .products .product-container .deal-heading{
+        padding: 1.8rem 0;
+    }
+    .products .product-container .deal-heading h1{
+        font-size: 1.8rem;
+    }
+    .row {
+        width: 44rem;
+    }
     .row .product-wrap .product-image .image {
         height: 13rem;
     }
-    
-    .products .product-container .row .product-wrap .product-details .p-text {
+    .products .product-container .row .product-wrap .product-details .p-text.price {
         font-size: 0.9rem;
     }
-
-    .products .product-container .row .product-wrap .product-details .price {
-        font-size: 0.9rem;
+    .products .product-container .view-all{
+        padding: 2rem 0;
+    }
+    .products .product-container .view-all a{
+        font-size: 1rem;
     }
 }
 
-@media screen and (max-width: 480px) {
-    .navbar .nav-text {
-        font-size: 0.9rem;
+@media screen and (min-width: 673px) and (max-width: 742px) {
+    .carousel .carousel-inner .carousel-image .carousel-text h1 {
+        font-size: 1.8rem;
     }
-    
+    .carousel .carousel-inner .carousel-image .carousel-text{
+        width: 13rem;
+    }
+    .carousel .carousel-inner .carousel-image .carousel-women{
+        top: 12rem;
+        left: 7.5rem;
+    }
+    .products .product-container .deal-heading{
+        padding: 1.7rem 0;
+    }
+    .products .product-container .deal-heading h1{
+        font-size: 1.4rem;
+    }
+    .row{
+        width: 40rem;
+    }
+    .row .product-wrap .product-details .p-text, .price {
+        font-size: .9rem;
+    }
+    .products .product-container .view-all{
+        padding: 1.95rem 0;
+    }
+    .products .product-container .view-all a{
+        font-size: 1rem;
+    }
+    .carousel .carousel-inner .carousel-image .carousel-text .shop-now{
+        font-size: 1.2rem;
+    }
+}
+
+@media screen and (min-width: 655px) and (max-width: 672px) {
+    .carousel .carousel-inner .carousel-image .carousel-text h1 {
+        font-size: 1.8rem;
+    }
+    .carousel .carousel-inner .carousel-image .carousel-text{
+        width: 13rem;
+    }
+    .carousel .carousel-inner .carousel-image .carousel-women{
+        top: 12rem;
+        left: 6.5rem;
+    }
+    .products .product-container .deal-heading{
+        padding: 1.7rem 0;
+    }
+    .products .product-container .deal-heading h1{
+        font-size: 1.5rem;
+    }
+    .row{
+        width: 37rem;
+    }
+    .row .product-wrap .product-details .p-text, .price {
+        font-size: .86rem;
+    }
+    .products .product-container .view-all{
+        padding: 1.94rem 0;
+    }
+    .products .product-container .view-all a{
+        font-size: 1rem;
+    }
+    .carousel .carousel-inner .carousel-image .carousel-text .shop-now{
+        font-size: 1.1rem;
+    }
+}
+
+@media screen and (min-width: 595px) and (max-width: 654px) {
+    .carousel .carousel-inner .carousel-image .carousel-text h1 {
+        font-size: 1.8rem;
+    }
+    .carousel .carousel-inner .carousel-image .carousel-text{
+        width: 13rem;
+    }
+    .carousel .carousel-inner .carousel-image .carousel-women{
+        top: 12rem;
+        left: 5.8rem;
+    }
+    .products .product-container .deal-heading{
+        padding: 1.67rem 0;
+    }
+    .products .product-container .deal-heading h1{
+        font-size: 1.66rem;
+    }
+    .row{
+        width: 35rem;
+    }
+    .row .product-wrap .product-details .p-text, .price {
+        font-size: .86rem;
+    }
+    .products .product-container .view-all{
+        padding: 1.83rem 0;
+    }
+    .products .product-container .view-all a{
+        font-size: .98rem;
+    }
+    .carousel .carousel-inner .carousel-image .carousel-text .shop-now{
+        font-size: 1rem;
+    }
+}
+
+@media screen and (min-width: 571px) and (max-width: 594px) {
+    .carousel .carousel-inner .carousel-image .carousel-text h1 {
+        font-size: 1.8rem;
+    }
+    .carousel .carousel-inner .carousel-image .carousel-text{
+        width: 12rem;
+    }
+    .carousel .carousel-inner .carousel-image .carousel-women{
+        top: 10rem;
+        left: 5.6rem;
+    }
+    .carousel .carousel-inner .carousel-image .carousel-text .shop-now{
+        font-size: 1rem;
+    }
+    .products .product-container .deal-heading{
+        padding: 1.64rem 0;
+    }
+    .products .product-container .deal-heading h1{
+        font-size: 1.64rem;
+    }
+    .row{
+        width: 33rem;
+    }
+    .row .product-wrap .product-details .p-text, .price {
+        font-size: .85rem;
+    }
+    .products .product-container .view-all{
+        padding: 1.78rem 0;
+    }
+    .products .product-container .view-all a{
+        font-size: .95rem;
+    }
+}
+
+@media screen and (min-width: 531px) and (max-width: 570px) {
+    .carousel .carousel-inner .carousel-image .carousel-text h1 {
+        font-size: 1.8rem;
+    }
+    .carousel .carousel-inner .carousel-image .carousel-text{
+        width: 12rem;
+    }
+    .carousel .carousel-inner .carousel-image .carousel-women{
+        top: 10rem;
+        left: 5.4rem;
+    }
+    .carousel .carousel-inner .carousel-image .carousel-text .shop-now{
+        font-size: 1rem;
+    }
+    .products .product-container .deal-heading{
+        padding: 1.63rem 0;
+    }
+    .products .product-container .deal-heading h1{
+        font-size: 1.61rem;
+    }
+    .row{
+        width: 31rem;
+    }
+    .row .product-wrap .product-details .p-text, .price {
+        font-size: .85rem;
+    }
+    .products .product-container .view-all{
+        padding: 1.74rem 0 1.85rem 0;
+    }
+    .products .product-container .view-all a{
+        font-size: .93rem;
+    }
+}
+
+@media screen and (min-width: 501px) and (max-width: 530px) {
+    .carousel .carousel-inner .carousel-image .carousel-text h1 {
+        font-size: 1.8rem;
+    }
+    .carousel .carousel-inner .carousel-image .carousel-text{
+        width: 12rem;
+    }
+    .carousel .carousel-inner .carousel-image .carousel-women{
+        top: 10rem;
+        left: 5.2rem;
+    }
+    .carousel .carousel-inner .carousel-image .carousel-text .shop-now{
+        font-size: 1rem;
+    }
+    .products .product-container .deal-heading{
+        padding: 1.6rem 0;
+    }
+    .products .product-container .deal-heading h1{
+        font-size: 1.61rem;
+    }
+    .row{
+        width: 29rem;
+    }
+    .row .product-wrap .product-details .p-text, .price {
+        font-size: .85rem;
+    }
+    .products .product-container .view-all{
+        padding: 1.72rem 0 1.85rem 0;
+    }
+    .products .product-container .view-all a{
+        font-size: .91rem;
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width: 500px) {
+    .carousel .carousel-inner .carousel-image .carousel-text h1 {
+        font-size: 1.7rem;
+    }
+    .carousel .carousel-inner .carousel-image .carousel-text{
+        width: 11rem;
+    }
+    .carousel .carousel-inner .carousel-image .carousel-women{
+        top: 10rem;
+        left: 5rem;
+    }
+    .carousel .carousel-inner .carousel-image .carousel-text .shop-now{
+        font-size: 1rem;
+    }
+    .products .product-container .deal-heading{
+        padding: 1.6rem 0;
+    }
+    .products .product-container .deal-heading h1{
+        font-size: 1.61rem;
+    }
+    .row{
+        width: 27rem;
+    }
+    .row .product-wrap .product-details .p-text, .price {
+        font-size: .85rem;
+    }
+    .products .product-container .view-all{
+        padding: 1.69rem 0 1.85rem 0;
+    }
+    .products .product-container .view-all a{
+        font-size: .91rem;
+    }
+}
+
+@media screen and (min-width: 464px) and (max-width: 480px) {
     .navbar .icon {
         font-size: 1rem;
     }
-
-    .carousel .carousel-inner .carousel-image .carousel-text {
-        width: 16rem;
-        top: 12rem;
-    }
-
     .carousel .carousel-inner .carousel-image .carousel-text h1 {
-        font-size: 1.2rem;
+        font-size: 1.6rem;
     }
-
-    .carousel .carousel-inner .carousel-image .carousel-text p {
-        font-size: 0.9rem;
+    .carousel .carousel-inner .carousel-image .carousel-text{
+        width: 10rem;
     }
-
+    .carousel .carousel-inner .carousel-image .carousel-women{
+        top: 10rem;
+        left: 4.8rem;
+    }
+    .carousel .carousel-inner .carousel-image .carousel-text .shop-now{
+        font-size: 1rem;
+    }
     .products .product-container {
         padding: 0 0.3rem;
+    }
+
+    .products .product-container .deal-heading{
+        padding: 1.6rem 0;
+    }
+    .products .product-container .deal-heading h1{
+        font-size: 1.61rem;
+    }
+
+    .row {
+        width: 26rem;
     }
 
     .row .product-wrap .product-image .image {
         height: 11rem;
     }
 
-    .products .product-container .view-all a {
-        font-size: 1rem;
+    .row .product-wrap .product-details .p-text, .price {
+        font-size: .85rem;
+    }
+    .products .product-container .view-all{
+        padding: 1.69rem 0 1.85rem 0;
+    }
+    .products .product-container .view-all a{
+        font-size: .91rem;
     }
 
     .footer .sec, .footer .location {
@@ -347,5 +715,126 @@ body::-webkit-scrollbar{
 
     .footer .info {
         flex-direction: column;
+    }
+}
+
+@media screen and (min-width: 427px) and (max-width: 463px) {
+    .carousel .carousel-inner .carousel-image .carousel-text h1 {
+        font-size: 1.6rem;
+    }
+    .carousel .carousel-inner .carousel-image .carousel-text{
+        width: 10rem;
+    }
+    .carousel .carousel-inner .carousel-image .carousel-women{
+        top: 10rem;
+        left: 4.3rem;
+    }
+    .carousel .carousel-inner .carousel-image .carousel-text .shop-now{
+        font-size: 1rem;
+    }
+    .products .product-container .deal-heading{
+        padding: 1.5rem 0;
+    }
+    .products .product-container .deal-heading h1{
+        font-size: 1.57rem;
+    }
+    .row{
+        width: 25rem;
+    }
+    .row .product-wrap .product-image .image {
+        height: 10rem;
+    }
+    .row .product-wrap .product-details .p-text, .price {
+        font-size: .85rem;
+    }
+    .products .product-container .view-all{
+        padding: 1.69rem 0 1.85rem 0;
+    }
+    .products .product-container .view-all a{
+        font-size: .91rem;
+    }
+}
+
+@media screen and (min-width: 398px) and (max-width: 426px) {
+    .carousel .carousel-inner .carousel-image .carousel-text h1 {
+        font-size: 1.6rem;
+    }
+    .carousel .carousel-inner .carousel-image .carousel-text{
+        width: 10rem;
+    }
+    .carousel .carousel-inner .carousel-image .carousel-women{
+        top: 10rem;
+        left: 4.1rem;
+    }
+    .carousel .carousel-inner .carousel-image .carousel-text .shop-now{
+        font-size: 1rem;
+    }
+    .products .product-container .deal-heading{
+        padding: 1.5rem 0;
+    }
+    .products .product-container .deal-heading h1{
+        font-size: 1.55rem;
+    }
+    .row{
+        width: 23rem;
+    }
+    .row .product-wrap .product-image .image {
+        height: 9rem;
+    }
+    .row .product-wrap .product-details .p-text, .price {
+        font-size: .85rem;
+    }
+    .products .product-container .view-all{
+        padding: 1.67rem 0 1.85rem 0;
+    }
+    .products .product-container .view-all a{
+        font-size: .91rem;
+    }
+}
+
+@media screen and (max-width: 397px) {
+    .carousel .carousel-inner .carousel-image .carousel-text h1 {
+        font-size: 1.6rem;
+    }
+    .carousel .carousel-inner .carousel-image .carousel-text{
+        width: 10rem;
+    }
+    .carousel .carousel-inner .carousel-image .carousel-women{
+        top: 10rem;
+        left: 3.5rem;
+    }
+    .carousel .carousel-inner .carousel-image .carousel-text .shop-now{
+        font-size: 1rem;
+    }
+    .products .product-container .deal-heading{
+        padding: 1.5rem 0;
+    }
+    .products .product-container .deal-heading h1{
+        font-size: 1.53rem;
+    }
+    .row{
+        width: 21rem;
+    }
+    .row .product-wrap .product-image .image {
+        height: 4rem;
+    }
+    .row .product-wrap .product-details .p-text, .price {
+        font-size: .85rem;
+    }
+    .row .product-wrap .product-image .view, .wishlist{
+        font-size: .7em;
+        padding: 3px 11px;
+    }
+    .products .product-container .view-all{
+        padding: 1.67rem 0 1.85rem 0;
+    }
+    .products .product-container .view-all a{
+        font-size: .91rem;
+    }
+}
+@media screen and (max-width:353px){
+    .row .product-wrap .product-image .view, .wishlist{
+        font-size: .7em;
+        padding: 4px 10px;
     }
 }
