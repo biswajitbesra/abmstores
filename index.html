@@ -14,7 +14,7 @@
     <nav class="navbar navbar-expand-md w-100">
         <div class="container">
             <div class="nav-text"><span>ABM</span> Stores</div>
-            <button class="navbar-toggler border-0 shadow-none p-0" type="button" data-bs-toggle="collapse"
+            <button id="menuBtn" class="navbar-toggler border-0 shadow-none p-0" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarsExample04" aria-controls="navbarsExample04" aria-expanded="false">
                 <img src="./Images/Menu-icon.svg" alt="" />
             </button>
@@ -52,7 +52,7 @@
     <!-- CAROUSEL SECTION START -->
     <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
-            <div class="carousel-item active" data-bs-interval="3000">
+            <div class="carousel-item active" data-bs-interval="300000">
                 <div class="carousel-image">
                     <div class="carousel-text carousel-women">
                         <h1>Women's Collection</h1>
@@ -197,7 +197,7 @@
                     <h4>Category</h4>
                     <li><a href="#">Men</a></li>
                     <li><a href="#">Women</a></li>
-                    <li><a href="#">shoes</a></li>
+                    <li><a href="#">Shoes</a></li>
                     <li><a href="#">Watches</a></li>
                     <li><a href="#">Bags</a></li>
                 </ul>
@@ -236,6 +236,22 @@
     <!-- FOOTER SECTION END -->
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        const  menuBtn = document.querySelector('#menuBtn');
+        let  menuOpen = true;
+
+        menuBtn.addEventListener("click", () => {
+            let navbar = document.querySelector(".navbar");
+            if(menuOpen === true){
+                navbar.style.backgroundColor="white"
+                menuOpen = false
+            } else {
+                navbar.style.backgroundColor="transparent"
+                menuOpen = true
+            }
+        })
+
+    </script>
 </body>
 
 </html>
