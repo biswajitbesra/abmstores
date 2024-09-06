@@ -416,6 +416,10 @@ body::-webkit-scrollbar{
 }
 
 @media screen and (max-width: 800px) {
+    .nav-icon{
+        display: flex;
+        flex-direction: row;
+    }
     #carouselExampleAutoplaying{
         height: 25rem;
     }
