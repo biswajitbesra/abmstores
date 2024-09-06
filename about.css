@@ -174,6 +174,11 @@ body::-webkit-scrollbar{
         max-width: 100%;
     }
 
+    .story-container,
+    .mission-container{
+        padding: 0 2rem;
+    }
+
     .footer .sec, .footer .location {
         width: 100%;
         text-align: center;
